@@ -15,7 +15,7 @@ def load_data():
 
     return x, y
 
-
+''' '''
 def load_estimator():
 
     import os
@@ -41,4 +41,4 @@ def test_01():
         estimator.predict(x),
     )
 
-    assert r2 > 0.5
+    assert r2 > 0.6
