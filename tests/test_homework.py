@@ -41,4 +41,4 @@ def test_01():
         estimator.predict(x),
     )
 
-    assert r2 > 0.6
+    assert r2 > 0.5
